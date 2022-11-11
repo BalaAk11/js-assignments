@@ -59,7 +59,7 @@
 //   for(let i=0;i<arr.length;i++){
 //     if(i%2===0){
 //       arr1.push(arr[i]);
-//     }
+//     } dgdhg
     
 //   }
 //   return arr1;
