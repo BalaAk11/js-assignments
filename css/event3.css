@@ -1,0 +1,121 @@
+* 
+{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+}
+.row{
+    position: relative;
+}
+
+    
+
+
+.column-mid{
+    margin-left: 10px;
+    float: left;
+    width: 60%;
+    
+}
+
+
+
+input[type=text] {
+    width: 50%;
+    padding: 14px 20px;
+    margin: 8px 0;
+}
+input[type=tel] 
+{
+    width: 50%;
+    padding: 12px 20px ;
+    margin: 8px 0;
+}
+i{
+    position: absolute;
+    top: 158px;
+    padding: 2px;
+}
+.phone i{
+    position: absolute;
+    top:255px;
+    padding: 3px;
+}
+.name i{
+    position: absolute;
+    top: 477px;
+}
+.add i{
+    position: absolute;
+    top: 573px;
+}
+.city i{
+    position: absolute;
+    top: 673px;
+}
+.con i{
+    position: absolute;
+    top: 779px;
+}
+.pos i{
+    position: absolute;
+    top: 856px;
+}
+img{
+    width: 100%;
+    height: 100%;
+    border-radius: 12px;
+}
+.content-container{
+    width: 350px;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+.cross{
+    text-decoration: line-through;
+    color: orange;
+}
+.content-container2{
+    width: 350px;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+.image-container{
+    width: 150px;
+}
+.shopping{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.foot-container{
+    margin-top: 50px;
+    text-decoration: overline underline;
+}
+
+@media (min-width:900px){
+    .right-container{
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        background: #f2f2f2;
+        border-radius: 12px;
+        position: absolute;
+        top: 9%;
+        right: 10%;
+    }
+}
+@media (max-width:900px){
+    .right-container{
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        background: #f2f2f2;
+        border-radius: 12px;
+    }
+}

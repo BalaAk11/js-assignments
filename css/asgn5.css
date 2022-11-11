@@ -1,0 +1,25 @@
+div{
+    
+    padding: 10px;
+}
+.form-control
+{
+    width: 90%;
+    height: 150px;
+    padding: 12px 14px;
+}
+input[type=file]{
+background-color: red;
+color: white;
+}
+input[type=button]
+{
+    background-color: red;
+    color: white;
+    float: right;
+    margin-right: 50%;
+    margin-bottom: 5px;
+}
+legend{
+    font-weight: bold;
+}

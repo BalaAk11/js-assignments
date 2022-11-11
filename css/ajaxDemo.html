@@ -1,0 +1,48 @@
+<html>
+<body>
+<h2>The XMLHttpRequest Object</h2><h2>The XMLHttpRequest Object</h2><h2>The XMLHttpRequest Object</h2><h2>The XMLHttpRequest Object</h2>
+
+<div id="demo">
+<h2>The XMLHttpRequest Object</h2>
+<button type="button" onclick="loadDoc()">Change Content</button>
+<button onclick="loadFoodItem()">load foodItem</button>
+<button id="btnColor">bgcolor</button>
+</div>
+<div class="toys"></div>
+<div class="toys"></div>
+<div class="toys"></div>
+<div class="toys"></div>
+<script>
+    const toysEle=document.getElementsByClassName('toys');
+    console.log(toysEle);
+    for(let i=0;i<toysEle.length;i++)
+    {
+        toysEle[i].innerHTML='78% offer';
+    }
+
+    // toysEle.map((t)=>{
+    //     return t.style.border='1px solid red';
+
+    // })
+function loadDoc() {
+  const xhttp = new XMLHttpRequest();
+  xhttp.onload = function() {
+    document.getElementById("demo").innerHTML =this.responseText;
+  }
+  xhttp.open("GET", "https://www.app.tutorjoes.in/mobile/getAllFood");
+  xhttp.send();
+}
+
+function loadFoodItem()
+{
+    fetch("https://www.app.tutorjoes.in/mobile/getAllFood").then((response)=>response.json()).then((response)=>console.log(response)).catch((err)=>console.log(err));
+}
+
+document.getElementById('btnColor').onclick=()=>{
+    console.log('hello friends');
+    document.body.style.backgroundColor='lightBlue';
+};
+</script>
+
+</body>
+</html>

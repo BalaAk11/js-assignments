@@ -1,0 +1,32 @@
+Javascript
+-----------------
+output statements
+variable
+datatype
+operators
+string and Template string
+Type conversion and coersion
+Truthy and falsy values
+Equality operators,Logical operators
+Function
+array and Array methods
+object and methods
+----------------------7th oct
+Iteration:for loop,continue and break,Looping backward and loops in loops,while loop
+simple array methods
+call-apply-bind
+spread operators,Deep copy and shallow copy
+object destructuring
+callback function-setTimeout(),setInterval()
+IIFE
+-------------------------------14thOct
+Variable hoisting and function hoisting
+Closure
+for-of-in-each
+Default parameter,arguments,Rest parameter
+Map-filter-reduce
+Date and callback functions
+DOM
+Ajax-fetch-promise
+-------------------------------
+

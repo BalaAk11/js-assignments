@@ -1,0 +1,24 @@
+.column
+{
+    display: flex;
+}
+.column .column-mid,.right
+{
+    width:50%;
+}
+
+@media screen and (max-width:400px){
+    .column
+    {
+        flex-direction: column;
+    }
+    .right
+    {
+        order:1;
+    }
+    .column-mid
+    {
+        order:2;
+    }
+    
+}

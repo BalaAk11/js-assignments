@@ -1,0 +1,16 @@
+.tab
+{
+    border-collapse: collapse;
+    width: 100%;
+}
+.tab td, .tab th
+{
+    border: 1px solid rebeccapurple;
+    padding: 5px;
+}
+.tab tr:nth-child(even){background-color: aquamarine;}
+.tab tr:hover {background-color: brown;}
+.tab th{
+    background-color: chartreuse;
+    
+}

@@ -1,0 +1,40 @@
+.header
+{
+text-align: right;
+border-bottom-style: solid;
+border-color: blue;
+border-width: 1px;
+}
+i{
+    font-size: 50px;
+    position: fixed;
+    left: 85%;
+    top: 3%;
+    
+}
+    
+img
+{
+    float: left;
+}
+.float
+{
+    font-size: 30px;
+}
+
+
+    
+.column
+{
+    float: left;
+    width: 28%;
+    padding: 10px;
+    border-top-style: solid;
+    border-left-style: solid;
+    border-right-style: solid;
+    margin: 2px;
+}
+.row
+{
+    clear: left;
+}

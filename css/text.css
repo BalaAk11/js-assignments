@@ -1,0 +1,19 @@
+h1
+{
+    text-align: center;
+    text-decoration: underline red solid;
+}
+p
+{
+    text-shadow: 2px 2px 5px green;
+}
+div
+{
+ color: blueviolet;
+ font-size: 60px;
+
+}
+div:hover
+{
+    background-color: aqua;
+}

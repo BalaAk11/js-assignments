@@ -1,0 +1,13 @@
+body {
+    background-color: aquamarine;
+}
+#para1{
+    color:navy;
+    font-size:50px;
+    text-align:center;
+}
+.ss{
+    background-color: black;
+    color:blueviolet;
+    font-size: 200px; 
+}
